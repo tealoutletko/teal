@@ -77,6 +77,7 @@
         <li class="nav__item"><a href="#o-nas" class="nav__link" id="nav-o-nas">O nas</a></li>
         <li class="nav__item"><a href="#outlet" class="nav__link" id="nav-outlet">Outlet</a></li>
         <li class="nav__item"><a href="#storitve" class="nav__link" id="nav-storitve">Storitve</a></li>
+        <li class="nav__item"><a href="<?php echo esc_url( home_url( '/elektricna-vozila' ) ); ?>" class="nav__link" id="nav-ev">Električni avtomobili</a></li>
         <li class="nav__item"><a href="#kontakt" class="nav__link" id="nav-kontakt">Kontakt</a></li>
       </ul>
     </nav>
@@ -96,6 +97,7 @@
         <li><a href="#o-nas" class="mobile-menu__link">O nas</a></li>
         <li><a href="#outlet" class="mobile-menu__link">Outlet</a></li>
         <li><a href="#storitve" class="mobile-menu__link">Storitve</a></li>
+        <li><a href="<?php echo esc_url( home_url( '/elektricna-vozila' ) ); ?>" class="mobile-menu__link" id="mob-nav-ev">Električni avtomobili</a></li>
         <li><a href="#kontakt" class="mobile-menu__link">Kontakt</a></li>
       </ul>
       <a href="https://outletko.si/" target="_blank" rel="noopener noreferrer" class="btn btn--accent mobile-menu__cta" id="mob-outletko-cta">
