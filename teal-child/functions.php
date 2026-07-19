@@ -71,3 +71,15 @@ function teal_resource_hints( $urls, $type ) {
     }
     return $urls;
 }
+
+/* ── 5. Prisili nalaganje predloge za Električna vozila ───── */
+add_filter( 'template_include', 'teal_force_ev_template', 99 );
+function teal_force_ev_template( $template ) {
+    if ( is_page( 'elektricna-vozila' ) ) {
+        $custom_template = get_stylesheet_directory() . '/page-elektricna-vozila.php';
+        if ( file_exists( $custom_template ) ) {
+            return $custom_template;
+        }
+    }
+    return $template;
+}
