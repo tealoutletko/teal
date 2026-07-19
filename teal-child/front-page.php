@@ -68,12 +68,8 @@
 <!-- HEADER -->
 <header class="header" id="main-header" role="banner">
   <div class="container header__inner">
-    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="header__logo" id="logo-link" aria-label="TEAL d.o.o. - domaca stran">
-      <div class="logo-mark" aria-hidden="true">T</div>
-      <div class="logo-text">
-        <span class="logo-text__main">TEAL</span>
-        <span class="logo-text__sub">d.o.o. · Od leta 1991</span>
-      </div>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="header__logo" id="logo-link" aria-label="TEAL d.o.o. - domača stran">
+      <img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/logo.png" alt="TEAL d.o.o." class="logo-image">
     </a>
     <nav class="nav" id="main-nav" role="navigation" aria-label="Glavna navigacija">
       <ul class="nav__list" role="list">
@@ -394,9 +390,8 @@
   <div class="footer__top">
     <div class="container footer__top-inner">
       <div class="footer__brand">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="footer__logo">
-          <div class="logo-mark">T</div>
-          <div class="logo-text"><span class="logo-text__main">TEAL</span><span class="logo-text__sub">d.o.o. · Od leta 1991</span></div>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="footer__logo" aria-label="TEAL d.o.o. - domača stran">
+          <img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/logo.png" alt="TEAL d.o.o." class="logo-image">
         </a>
         <p class="footer__tagline">35 let zaupanja vredne prodaje računalniške opreme v Sloveniji.</p>
         <a href="https://outletko.si/" target="_blank" rel="noopener noreferrer" class="btn btn--accent btn--sm footer__outletko-btn">Spletna trgovina Outletko.si</a>
