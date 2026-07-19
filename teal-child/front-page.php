@@ -117,23 +117,25 @@
     <img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/hero.jpg" alt="" loading="eager" width="1920" height="1080">
     <div class="hero__overlay"></div>
   </div>
-  <div class="container hero__content">
-    <div class="hero__badge">Od leta 1991</div>
-    <h1 class="hero__title">
-      Racunalniska oprema<br>
-      <span class="hero__title--accent">z 35-letno tradicijo</span>
-    </h1>
-    <p class="hero__subtitle">Nova, outlet in obnovljena (refurbished) racunalniska oprema. Kakovost, ki ji zaupate - po cenah, ki vas prijetno presenetijo.</p>
-    <div class="hero__actions">
-      <a href="https://outletko.si/" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--lg" id="hero-cta-main">Razisci spletno trgovino</a>
-      <a href="#ponudba" class="btn btn--outline btn--lg" id="hero-cta-secondary">Nasa ponudba</a>
-    </div>
-    <div class="hero__stats">
-      <div class="hero__stat"><span class="hero__stat-number">35+</span><span class="hero__stat-label">Let tradicije</span></div>
-      <div class="hero__stat-divider"></div>
-      <div class="hero__stat"><span class="hero__stat-number">2</span><span class="hero__stat-label">Poslovalnici</span></div>
-      <div class="hero__stat-divider"></div>
-      <div class="hero__stat"><span class="hero__stat-number">1000+</span><span class="hero__stat-label">Zadovoljnih strank</span></div>
+  <div class="container">
+    <div class="hero__content">
+      <div class="hero__badge">Od leta 1991</div>
+      <h1 class="hero__title">
+        Računalniška oprema<br>
+        <span class="hero__title--accent">z 35-letno tradicijo</span>
+      </h1>
+      <p class="hero__subtitle">Nova, outlet in obnovljena (refurbished) računalniška oprema. Kakovost, ki ji zaupate – po cenah, ki vas prijetno presenetijo.</p>
+      <div class="hero__actions">
+        <a href="https://outletko.si/" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--lg" id="hero-cta-main">Razišči spletno trgovino</a>
+        <a href="#ponudba" class="btn btn--outline btn--lg" id="hero-cta-secondary">Naša ponudba</a>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat"><span class="hero__stat-number">35+</span><span class="hero__stat-label">Let tradicije</span></div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat"><span class="hero__stat-number">2</span><span class="hero__stat-label">Poslovalnici</span></div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat"><span class="hero__stat-number">1000+</span><span class="hero__stat-label">Zadovoljnih strank</span></div>
+      </div>
     </div>
   </div>
   <a href="#ponudba" class="hero__scroll-cue" aria-label="Pomakni se navzdol" id="scroll-cue">
