@@ -562,7 +562,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
       </div>
     </div>
     <div class="ev-hero__image-wrap">
-      <img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/ev-hero.jpg" alt="Električna vozila pred modernim salonom" class="ev-hero__image">
+      <img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/tesla.jpg" alt="Električna vozila pred modernim salonom" class="ev-hero__image">
     </div>
   </div>
 </section>
