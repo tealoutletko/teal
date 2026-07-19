@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Električna vozila (avtomobili.si)
+ * Template Name: Električna vozila (eavtomobili.si)
  * Description: Standalone, premium landing page for electric vehicle importing.
  */
 if ( ! defined( 'ABSPATH' ) ) exit;
@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uvoz električnih vozil po naročilu | avtomobili.si</title>
+  <title>Uvoz električnih vozil po naročilu | eavtomobili.si</title>
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -538,7 +538,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 <!-- HEADER NAVBAR -->
 <header class="ev-header">
   <div class="ev-container ev-header__inner">
-    <a href="#" class="ev-logo">avtomobili<span>.si</span></a>
+    <a href="#" class="ev-logo"><span>e</span>avtomobili<span>.si</span></a>
     <nav class="ev-nav">
       <a href="#domov">Domov</a>
       <a href="#izkusnje">Izkušnje</a>
@@ -633,7 +633,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
     <div class="ev-value__grid">
       <div style="display: flex; flex-direction: column; gap: 1.5rem;">
         <span class="section-header__tag" style="align-self: flex-start; background-color: rgba(16, 185, 129, 0.1); color: var(--ev-accent);">Dodana vrednost</span>
-        <h2 style="font-size: 2.2rem; font-weight: 800; color: var(--ev-primary); margin: 0; line-height: 1.25;">Zakaj izbrati uvoz preko avtomobili.si?</h2>
+        <h2 style="font-size: 2.2rem; font-weight: 800; color: var(--ev-primary); margin: 0; line-height: 1.25;">Zakaj izbrati uvoz preko eavtomobili.si?</h2>
         <p style="color: var(--ev-text-light); font-size: 1.05rem; line-height: 1.7; margin: 0;">Ker nismo le uvozniki, temveč IT strokovnjaki s poglobljenim znanjem o sodobnih tehnologijah in strojno-programski opremi vozil.</p>
       </div>
       <div class="ev-value__content">
@@ -698,8 +698,8 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 <!-- FOOTER -->
 <footer class="ev-footer">
   <div class="ev-container ev-footer__inner">
-    <a href="#" class="ev-footer__logo">avtomobili<span>.si</span></a>
-    <div>&copy; <?php echo date('Y'); ?> avtomobili.si. Uvoz električnih vozil po naročilu.</div>
+    <a href="#" class="ev-footer__logo"><span>e</span>avtomobili<span>.si</span></a>
+    <div>&copy; <?php echo date('Y'); ?> eavtomobili.si. Uvoz električnih vozil po naročilu.</div>
   </div>
 </footer>
 
