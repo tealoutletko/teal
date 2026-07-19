@@ -127,7 +127,7 @@ address { font-style: normal; }
 .header__inner { display: flex; align-items: center; height: var(--header-h); gap: var(--space-xl); }
 
 .header__logo, .footer__logo { display: flex; align-items: center; gap: var(--space-sm); text-decoration: none; flex-shrink: 0; }
-.logo-image { height: 44px; width: auto; display: block; }
+.logo-image { height: 44px !important; width: auto !important; display: block !important; }
 .logo-mark { width: 42px; height: 42px; border-radius: var(--radius-md); background: linear-gradient(135deg, var(--clr-primary), var(--clr-primary-dark)); color: var(--clr-white); font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(14,165,233,.4); }
 .logo-text { display: flex; flex-direction: column; line-height: 1.1; }
 .logo-text__main { font-family: var(--font-heading); font-size: 1.4rem; font-weight: 700; letter-spacing: 0.08em; color: var(--clr-dark); }
