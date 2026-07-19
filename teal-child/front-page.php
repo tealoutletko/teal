@@ -114,7 +114,7 @@
 <!-- HERO -->
 <section class="hero" id="hero" aria-label="Uvodni banner">
   <div class="hero__bg" aria-hidden="true">
-    <img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/hero.jpg" alt="" loading="eager" width="1920" height="1080">
+    <img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/hero.png" alt="" loading="eager" width="1920" height="1080">
     <div class="hero__overlay"></div>
   </div>
   <div class="container">
